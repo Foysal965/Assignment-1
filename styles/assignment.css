@@ -1,0 +1,168 @@
+/* Font */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  border: none;
+}
+
+
+.header-container {
+  min-height: 700px;
+}
+
+/* header nav */
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #4E47FF;
+  font-size: 34px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header-content button {
+  background-color: #4E47FF;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* header banner */
+
+.header-sub-content {
+  text-align: center;
+  font-size: 60px;
+}
+
+.header-sub-content h2 {
+  margin: 0px;
+  margin-top: 80px;
+}
+
+.hd-content-btn {
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin: 37px auto 0px auto;
+  padding: 12px 36px;
+  background-color: #4E47FF;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+
+}
+
+/* main section */
+
+.main-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Action contain */
+
+.Action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 116px auto;
+
+}
+
+.Action-content h3 {
+  font-size: 42px;
+}
+
+.Action-container p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Action-container img {
+  border-radius: 20px;
+
+}
+
+.Action-container button {
+  padding: 12px 36px;
+  border-radius: 10px;
+  background-color: #4E47FF;
+  color: white;
+}
+
+/* Productive content */
+
+.Productive-container {
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 10px 142px;
+  text-align: center;
+  border-radius: 20px
+}
+
+.Productive-container h3 {
+  font-size: 38px;
+}
+
+.Productive-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Productive-content h1 {
+  color: rgba(78, 71, 255, 1);
+  font-size: 80px;
+}
+
+.Productive-content p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* users say section */
+
+.user-say-container h1 {
+  text-align: center;
+}
+
+.user-say-sub-container {
+  background-color: #F2EDED;
+}
+
+.user-say-content {
+  display: flex;
+
+}
+
+.review-name {
+  display: flex;
+  gap: 10px;
+}
+
+.review-name img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-name h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+
+}
