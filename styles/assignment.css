@@ -240,4 +240,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  padding: 104px 0px;
+}
+
+.footLogo {
+  font-size: 100px;
+  font-weight: 800;
+  margin: 0;
+  color: #4E47FF;
+
+}
+
+.footDesc {
+  color: #8987A1;
+  margin-bottom: 20px;
+}
+
+.footLinks {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.footLinks a {
+  text-decoration: none;
+  color: #8987A1;
 }
