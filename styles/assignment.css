@@ -211,6 +211,7 @@ body {
 
 .contact-title h1 {
   font-size: 97px;
+  font-weight: 700;
 }
 
 .contact-title div {
@@ -222,7 +223,9 @@ body {
   flex: 1;
 }
 
-
+.text-bold {
+  font-weight: 700;
+}
 
 .contact-title form input {
   border: 0.5px solid #D6DDED;
