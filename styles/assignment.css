@@ -113,13 +113,26 @@ body {
 
 .Productive-container {
   background-color: rgba(78, 71, 255, 0.1);
-  padding: 10px 142px;
+  padding: 50px 142px;
   text-align: center;
   border-radius: 20px
 }
 
 .Productive-container h3 {
   font-size: 38px;
+}
+
+.prod-des {
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.prod-num {
+  margin: 0px;
+}
+
+.prod-num-des {
+  margin: 0;
 }
 
 .Productive-content {
@@ -141,10 +154,13 @@ body {
 .user-say-containertwo {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .user-say-container {
   margin: 116px auto;
+  padding: 24px;
+
 }
 
 .user-say-container h1 {
@@ -156,15 +172,18 @@ body {
   background-color: white;
   padding: 24px;
   border-radius: 20px;
+  min-width: 340px;
 }
 
 .user-say-content {
   display: flex;
+  align-items: center;
 }
 
 .review-name {
   display: flex;
   gap: 10px;
+  color: #757575;
 }
 
 .review-name img {
@@ -186,6 +205,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 71px;
 
 }
 
@@ -207,11 +227,11 @@ body {
 .contact-title form input {
   border: 0.5px solid #D6DDED;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 5px;
+  padding-left: 10px;
   margin-bottom: 17px;
   margin-top: 5px;
 }
@@ -221,11 +241,13 @@ body {
 .textarea {
   border: 0.5px solid #D6DDED;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
-  padding-left: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
   margin-top: 5px;
 }
+
 
 .Contact-submit {
   padding: 12px 36px;
@@ -266,4 +288,16 @@ body {
 .footLinks a {
   text-decoration: none;
   color: #8987A1;
+}
+
+.review-date {
+  margin: 0;
+  margin-top: 4px;
+  color: #B3B3B3;
+}
+
+/* Shared Button Hover */
+.btn-hover:hover {
+  background-color: #6a65fd;
+  cursor: pointer;
 }
