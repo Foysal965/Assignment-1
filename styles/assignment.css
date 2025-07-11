@@ -69,6 +69,10 @@ button {
 }
 
 /* main section */
+body {
+  background-color: #F4F7FE;
+
+}
 
 .main-container {
   max-width: 1140px;
@@ -134,18 +138,28 @@ button {
 
 
 /* users say section */
+.user-say-containertwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-say-container {
+  margin: 116px auto;
+}
 
 .user-say-container h1 {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .user-say-sub-container {
-  background-color: #F2EDED;
+  background-color: white;
+  padding: 24px;
+  border-radius: 20px;
 }
 
 .user-say-content {
   display: flex;
-
 }
 
 .review-name {
@@ -164,5 +178,4 @@ button {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-
 }
